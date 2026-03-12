@@ -14,4 +14,4 @@ Proyecto con **Vite + React + Node.js** que muestra los 17 Objetivos de Desarrol
 
 ### 📸 Resultado
 
-![Vista del proyecto](src\img\captura.png)
+![Vista del proyecto](captura.png)
