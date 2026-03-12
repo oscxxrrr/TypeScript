@@ -1,5 +1,7 @@
 import { Card } from "./Card";
 import { odsAlumnos } from "../data/Ods";
+import "./App.css";
+
 function App() {
   return (
     <div className="container">
