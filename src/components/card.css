@@ -1,0 +1,33 @@
+/* Tarjeta principal */
+.card {
+  border-radius: 16px;
+  padding: 20px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  font-family: system-ui, sans-serif;
+  text-align: center;
+}
+
+/* Título ODS */
+.card-title {
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+
+/* Texto de ODS favorito */
+.card-text {
+  color: #334155;
+  margin: 5px 0;
+}
+
+/* Estado de la ODS */
+.card-status {
+  margin-top: 10px;
+  background: #3b82f6;
+  color: white;
+  padding: 4px 8px; /* menos padding que antes */
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 12px; /* más pequeño */
+  font-weight: 500;
+}
