@@ -1,17 +1,10 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import 'bootstrap/dist/css/bootstrap.css'
-import App from './components/App.tsx'
-import List from './components/List.tsx'
-import HolaReact from './components/HolaReac.tsx'
-import Ods from './components/ods.tsx'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "bootstrap/dist/css/bootstrap.css";
+import App from "./components/App";
 
-
-createRoot(document.getElementById('root')!).render(
+createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <App />
-    <HolaReact />
-    <List />
-    <Ods />
   </StrictMode>,
-)
+);
